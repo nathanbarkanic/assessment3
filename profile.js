@@ -14,11 +14,11 @@ ritualButton.addEventListener('click', function () {
     alert('My favorite ritual is hiking in the woods.');
 });
 
-const skillsSelect = document.getElementById("skills");
+// const skillsSelect = document.getElementById("skills");
 
-form.addEventListener("click", () => {
-	alert("Nice!");
-});
+// form.addEventListener("click", () => {
+// 	alert("Nice!");
+// });
 
 // function handleSubmit(evt) {
 // 	evt.preventDefault();
