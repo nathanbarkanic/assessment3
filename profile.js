@@ -13,3 +13,33 @@ placeButton.addEventListener('click', function () {
 ritualButton.addEventListener('click', function () {
     alert('My favorite ritual is hiking in the woods.');
 });
+
+const skillsSelect = document.getElementById("skills");
+
+// skillsSelect.addEventListener("click", () => {
+// 	alert("Nice!");
+// });
+
+// function handleSubmit(evt) {
+// 	evt.preventDefault();
+	
+// 	alert('nice!');
+// };
+
+// let form = document.querySelector('#skills');
+
+// form.addEventListener('submit', handleSubmit);
+
+const form = document.getElementById("myForm");
+const select = document.getElementById("skills");
+const submitButton = form.querySelector("input[type='submit']");
+
+submitButton.addEventListener("click" , (event) => {
+    if (select.value === "") {
+        alert("Please choose a skill");
+        event.preventDefault();
+    } else {
+        alert("nice!")
+    }
+
+});
