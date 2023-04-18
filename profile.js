@@ -16,9 +16,9 @@ ritualButton.addEventListener('click', function () {
 
 const skillsSelect = document.getElementById("skills");
 
-// skillsSelect.addEventListener("click", () => {
-// 	alert("Nice!");
-// });
+form.addEventListener("click", () => {
+	alert("Nice!");
+});
 
 // function handleSubmit(evt) {
 // 	evt.preventDefault();
